@@ -2,7 +2,7 @@ require 'rails/generators/resource_helpers'
 
 module Rails
   module Generators
-    class Rails::NiftyControllerGenerator < Rails::Generators::NamedBase
+    class NiftyControllerGenerator < NamedBase
       include ResourceHelpers
 
       source_root File.expand_path('../templates', __FILE__)
